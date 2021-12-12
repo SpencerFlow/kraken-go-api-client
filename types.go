@@ -20,6 +20,7 @@ const (
 	ALGOETH  = "ALGOETH"
 	ETHALGO  = "ETHALGO"
 	ALGOUSD  = "ALGOUSD"
+	ALGOBTC  = "ALGOBTC"
 	BCHEUR   = "BCHEUR"
 	BCHUSD   = "BCHUSD"
 	BCHXBT   = "BCHXBT"
@@ -124,6 +125,7 @@ type AssetPairsResponse struct {
 	ALGOETH  AssetPairInfo
 	ETHALGO  AssetPairInfo
 	ALGOUSD  AssetPairInfo
+	ALGOBTC  AssetPairInfo
 	BCHEUR   AssetPairInfo
 	BCHUSD   AssetPairInfo
 	BCHXBT   AssetPairInfo
@@ -342,6 +344,7 @@ type Fees struct {
 	AAVEUSD  FeeInfo
 	ALGOETH  FeeInfo
 	ALGOUSD  FeeInfo
+	ALGOBTC  FeeInco
 	ETHALGO  FeeInfo
 	BCHEUR   FeeInfo
 	BCHUSD   FeeInfo
@@ -442,6 +445,7 @@ type TickerResponse struct {
 	ALGOETH  PairTickerInfo
 	ETHALGO  PairTickerInfo
 	ALGOUSD  PairTickerInfo
+	ALGOBTC  PairTickerInfo
 	BCHEUR   PairTickerInfo
 	BCHUSD   PairTickerInfo
 	BCHXBT   PairTickerInfo
