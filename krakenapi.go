@@ -447,6 +447,8 @@ func (api *KrakenAPI) AddOrder(pair string, direction string, orderType string, 
 		"ordertype": {orderType},
 		"volume":    {volume},
 	}
+	
+	params.Add("timeinforce", "IOC")
 
 	if value, ok := args["price"]; ok {
 		params.Add("price", value)
