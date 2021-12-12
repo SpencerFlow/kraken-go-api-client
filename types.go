@@ -344,7 +344,7 @@ type Fees struct {
 	AAVEUSD  FeeInfo
 	ALGOETH  FeeInfo
 	ALGOUSD  FeeInfo
-	ALGOBTC  FeeInco
+	ALGOBTC  FeeInfo
 	ETHALGO  FeeInfo
 	BCHEUR   FeeInfo
 	BCHUSD   FeeInfo
