@@ -433,7 +433,7 @@ type TickerResponse struct {
 	ADAUSD   PairTickerInfo
 	ADAXBT   PairTickerInfo
 	AAVEUSD  PairTickerInfo
-	ALGOETH  PariTickerInfo
+	ALGOETH  PairTickerInfo
 	BCHEUR   PairTickerInfo
 	BCHUSD   PairTickerInfo
 	BCHXBT   PairTickerInfo
